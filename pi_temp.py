@@ -18,9 +18,9 @@ def date_time():
 
 
 name = str(input("Enter file's name: "))
-def save(k, n):
+def save(func1, func2):
     with open(name, "a") as f:
-        f.write("{} -- {}\n".format(k, n))
+        f.write("{} -- {}\n".format(func1, func2))
         return
 
 # вывод
